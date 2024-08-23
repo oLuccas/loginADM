@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+}
 
 * {
     margin: 0;
     box-sizing: border-box;
     padding: 0px;
-    font-family: 'roboto';
+    font-family: 'Inter';
     color: white;
 }
 
@@ -13,7 +16,6 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 150px;
-   
 }
 
 .spacial {
@@ -22,12 +24,16 @@ body {
     padding: 20px;
     width: 100%;
     background-color: #163396;
-    font-family: 'Roboto';
+    font-family: 'Inter';
+    
+
 
     & .text {
         display: flex;
         gap: 10px;
         color: #fff;
+        font-family: 'Inter';
+        
 
         width: 90%;
         justify-content: center;
@@ -36,6 +42,8 @@ body {
         & .cor {
             color: chocolate;
         }
+    } & h2{
+        font-family: 'Inter';
     }
 
 }
