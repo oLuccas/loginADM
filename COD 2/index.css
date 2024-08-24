@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1F3B64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: linear-gradient(to right, #2A649B, #B1C6E4);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.login-box {
+    display: flex;
+    gap: 40px;
+    background-color: #1f3851;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.text {
+
+    & h2 {
+        color: #ffffff;
+        font-size: 24px;
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    & .linha {
+        display: flex;
+        width: 230px;
+        height: 5px;
+        margin-left: 30px;
+        background-color: #e96b34;
+    }
+}
+
+.login-form {
+    margin-top: 20px;
+}
+
+
+.input-box1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-box2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+
+    & .lock {
+        background-color: #f0f0f0;
+        padding: 10px 0px 10px 0px;
+        border-radius: 30px;
+    }
+}
+
+.input-box1 img {
+    padding: 0px;
+    background-color: #f0f0f0;
+    border-radius: 30px;
+
+    width: 54px;
+    margin-right: 10px
+}
+
+.input-box2 img {
+
+    background-color: #f0f0f0;
+    border-radius: 30px;
+
+    width: 54px;
+    height: 30px;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+
+    border-radius: 30px;
+    background-color: #d6d6d6;
+    font-size: 16px;
+}
+
+button {
+    background-color: #FF8243;
+    color: white;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #e96b34;
+}
