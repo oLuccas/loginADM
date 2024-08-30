@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Clash;
+    font-family: 'clash';
     src: url(/fonts/ClashDisplay-Semibold.otf);
 }
 @font-face {
-    font-family: Clash Bold;
+    font-family: 'Clash Bold';
     src: url(/fonts/ClashDisplay-Bold.otf);
 }
