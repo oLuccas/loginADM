@@ -148,26 +148,3 @@ body {
 
 
 
-/* Botão 
-.btn {
-    width: 65%;
-    padding: 14px;
-    margin-top: -10px;
-    margin-left: 30px;
-
-    border: none;
-    border-radius: 8px;
-    background-color: #FF8D00;
-    color: #fff;
-
-    cursor: pointer; 
-    font-size: 16px;
-    box-shadow: 5px 5px 5px 0px #6b6b6b;
-    transition: transform .2s, background-color .2s;
-}
-
-.btn:hover {
-    background-color: #ff5722;
-    transform: scale(1.1); 
-}
-*/
